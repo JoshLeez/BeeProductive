@@ -1,0 +1,14 @@
+html, body{
+    background-image: url('../image/backgroundimg.png');
+    background-repeat: no-repeat;
+    overflow:hidden;
+    height:100%;
+    margin:0;
+}   
+
+.bp-logo{
+    padding-left: 0.5em;
+}
+
+
+

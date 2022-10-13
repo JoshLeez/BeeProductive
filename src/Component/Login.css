@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.login-container{
+    display:flex;   
+    height:97.5vh;
+    margin:3em;
+}
+.clock-img{
+    width: 596px;
+    height: 400px;
+    margin-right: 3em;
+}
+.login-title{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.login-title h4{
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    -webkit-text-stroke: #FFF683 1px;
+    color: #88C7E6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:0;
+    align-self: flex-start;
+}
+
+.login-title h3{
+    font-family: 'Fredoka One', cursive;
+    -webkit-text-stroke:#0000004D 0.5px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFEF7;
+    padding-left:35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:0;
+}
+
+.login-title h3 span{
+    font-size: 25vh;
+    position:fixed;
+    top:9vh;
+}
+
+.login-form{
+    display:flex;
+    flex-direction: column;
+    padding: 2em 0 1em 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+.login-form input{
+    font-family: sans-serif;
+    padding:1em;
+    height:10px;
+    width:65%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border:none;
+    margin-bottom:2em;
+}
+
+.submit-form{
+    display:flex;
+    font-size: 14px;
+    align-items: center;
+    width:70%;
+    justify-content: space-between;
+}
+.submit-form > .create-account{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+}
+
+.submit-form > .create-account:hover{
+    color:#3330B0;
+    transition: 0.3s ease-in-out;
+}
+.submit-form > .login-button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    font-weight: 700;
+    background: #3330B0;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+.submit-form .login-button:hover{
+    background-color:#02005c;
+    transition: 0.2s ease-in-out;
+}
