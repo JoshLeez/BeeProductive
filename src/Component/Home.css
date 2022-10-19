@@ -1,7 +1,0 @@
-.home{
-    background-image: linear-gradient(180deg, #FFFEC1 0%, #FFD302 177.25%);
-    height:100vh;
-    overflow: auto;
-    display:flex;
-    margin-left:200px;
-}
