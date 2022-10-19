@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeProductive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation">
+        
+        <ul>
+            <li>
+                <div class="logo">
+                    <img src="Assets/img/BeePro_Logo-01.png" alt="">
+                </div>
+            </li>
+            <div class="navlist">
+                <li class="list active">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><iconify-icon icon="radix-icons:dashboard"></iconify-icon></span>
+                        <span class="title">Dasboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><iconify-icon icon="bx:task"></iconify-icon></span>
+                        <span class="title">To do</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><iconify-icon icon="bi:clock-history"></iconify-icon></span>
+                        <span class="title">Dailies</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><iconify-icon icon="bi:bar-chart"></iconify-icon></span>
+                        <span class="title">Habits</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <b></b>
+                    <b></b>
+                    <a href="#">
+                        <span class="icon"><iconify-icon icon="gg:notes"></iconify-icon></iconify-icon></span>
+                        <span class="title">Notes</span>
+                    </a>
+                </li>
+            </div>
+        </ul>
+
+    </div>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sequi iste provident expedita dolorum, distinctio, itaque recusandae temporibus voluptatum ad eveniet blanditiis commodi. Laborum vel laudantium saepe consequatur! Quis voluptate, rem dolorem ipsum, vero non molestiae fuga labore amet, doloribus quidem veritatis. Aliquid iste nostrum nam incidunt quae ea doloremque aliquam eaque saepe maxime expedita aut natus, quis dolore modi dolorem impedit vel sit. Maxime tenetur facere earum hic eligendi praesentium cumque eaque, sapiente itaque ducimus quod perspiciatis, nobis magnam quam eos aliquid laborum ab repellat debitis? Doloribus laboriosam excepturi cumque non quis, provident, aliquid maxime, voluptate ea illum velit.</h1>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        //add active class in selected list item
+        let list = document.querySelectorAll('.list');
+        for (let i = 0; i<list.length; i++){
+            list[i].onclick = function(){
+                let j = 0;
+                while(j < list.length){
+                    list[j++].className = 'list';
+                }//ketika tidak active maka kembali ke list normal
+                list[i].className = 'list active'
+            }
+        }
+    </script>
+</body>
+</html>

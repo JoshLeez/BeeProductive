@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #fff;
+    margin-left: 210px;
+
+}
+
+.navigation{
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #FFD302;
+    box-sizing: initial;
+    transition: width 0.5s;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.navigation ul .logo img{
+    position: relative;
+    width: 190px;
+    align-items: center;
+
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px; */
+}
+
+.navigation ul .navlist{
+    padding-top: 30px;
+    
+}
+
+.navigation ul li b:nth-child(1){
+    position: absolute;
+    top: -15px;
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    display: none;
+}
+
+.navigation ul li b:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFD302;
+    border-bottom-right-radius: 20px;
+}
+
+.navigation ul li b:nth-child(2){
+    position: absolute;
+    bottom: -20px;
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    display: none;
+}
+
+.navigation ul li b:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFD302;
+    border-top-right-radius: 20px;
+}
+
+.navigation ul li.active b:nth-child(1),
+.navigation ul li.active b:nth-child(2){
+    display: block;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.navigation ul li.active{
+    background: #fff;
+}
+
+
+
+.navigation ul li.active a{
+    color: black;
+    font-weight: 600;
+}
+
+.navigation ul li.active a .icon iconify-icon{
+    color: black;
+}
+
+.navigation ul li a .title{
+   font-size: 16px;
+   font-weight: medium;
+   position: relative;
+   display: block;
+
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.navigation ul li a .icon iconify-icon{
+    font-size: 1.5rem;
+}
+
+
