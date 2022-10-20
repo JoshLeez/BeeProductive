@@ -1,9 +1,4 @@
 https://beeproductive.netlify.app/
 
-<div>
-<code>
-<img height="100" src="https://imgur.com/vyCVei5](https://i.imgur.com/vyCVei5.png">
-
-</code>
-</div>
+The only thing that are responsive in the web is the todolist which allow user to add todo, edit todo by double click and delete by pressing the trash icon.
   
